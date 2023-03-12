@@ -1,4 +1,3 @@
-```ruby
 from pyquil import Program, get_qc
 from pyquil.gates import *
 from pyquil.quilbase import Declare
@@ -46,4 +45,3 @@ def is_rectangle(A, B, C, D):
     result = qc.run(executable) 
     bitstrings = result.readout_data.get('ro')
     return bitstrings[0][0]
-```
