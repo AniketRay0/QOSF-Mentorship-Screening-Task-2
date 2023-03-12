@@ -1,4 +1,4 @@
-```
+```ruby
 from pyquil import Program, get_qc
 from pyquil.gates import *
 from pyquil.quilbase import Declare
